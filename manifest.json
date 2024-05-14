@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "My Games Extension",
+  "version": "1.0",
+  "description": "Play Games directly in your Chrome extension!",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+  
+}
